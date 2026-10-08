@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Chess 2D - Jogo de Xadrez Pixel Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte Retro / Arcade Pixel Art -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+
+    <!-- Cabeçalho Pixel Art -->
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">♔</span>
+            <h2>NOUS CHESS 2D</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#regras">RECURSOS</a></li>
+                <li><a href="#creditos">CRÉDITOS</a></li>
+                <li><a href="#download" class="btn-pixel btn-nav">JOGAR AGORA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Hero Section (Estilo Caixa de Jogo Retro com Foto) -->
+    <section class="hero">
+        <div class="hero-frame">
+            <h1 class="glitch-title">NOUS CHESS 2D</h1>
+            <p class="subtitle">O XADREZ CLÁSSICO EM ESTILO PIXEL ART</p>
+            
+            <!-- Moldura da Foto do Jogo -->
+            <div class="game-preview-container">
+                <!-- Substitua 'sua-foto-do-jogo.png' pelo caminho/nome da print do seu jogo -->
+                <img src="jogo.jpeg" alt="Screenshot do Nous Chess 2D" class="game-screenshot">
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#download" class="btn-pixel btn-primary">⚡ BAIXAR JOGO (.EXE)</a>
+                <a href="#sobre" class="btn-pixel btn-secondary">SAIBA MAIS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Projeto -->
+    <section id="sobre" class="section">
+        <div class="pixel-box">
+            <h2>// SOBRE O PROJETO</h2>
+            <p>
+                O <strong>Nous Chess 2D</strong> é um projeto independente desenvolvido na engine <strong>Unity 6</strong>, combinando a mecânica completa do xadrez com um visual único em pixel art nas cores verde e amarelo.
+            </p>
+            <p>
+                O jogo possui validação precisa de movimentos em matriz $8 \times 8$, controle de xeques, xeque-mate e histórico de partidas dinâmico.
+            </p>
+            <p>
+                Este projeto foi feito para um evento de setembro amarelo no Via de acesso para os jovens aprendizes se conscientizarem sobre o cuidado mental e se divertir aprendendo a jogar xadrez.
+            </p>
+        </div>
+    </section>
+
+    <!-- Recursos do Jogo -->
+    <section id="regras" class="section">
+        <div class="container">
+            <h2 class="section-title">// RECURSOS DO JOGO</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="card-icon">♟️</div>
+                    <h3>REGRAS OFICIAIS</h3>
+                    <p>Roque Curto/Longo, En Passant, Promoção de Peões e Detecção de Xeque-Mate.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">📜</div>
+                    <h3>HISTÓRICO EM TEMPO REAL</h3>
+                    <p>Registro completo das jogadas em notação algébrica no painel lateral do jogo.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon">🎨</div>
+                    <h3>VISUAL CARTUNESCO</h3>
+                    <p>Design em pixel art exclusivo com peças amarelas e brancas, animação de pulso e menus fluídos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Créditos / Desenvolvedor -->
+    <section id="creditos" class="section">
+        <div class="pixel-box developer-box">
+            <h2>// CRÉDITOS & DESENVOLVIMENTO</h2>
+            <div class="dev-info">
+                <p><strong>CRIADO POR:</strong> Yann Fidelis</p>
+                <p><strong>ENGINE:</strong> Unity 6 (C#)</p>
+                <p><strong>ARTE & UI:</strong> Custom Pixel Art & TextMeshPro</p>
+                <p><strong>TECNOLOGIAS USADAS:</strong> C#, Unity UI System, Canvas Scaler, Input System</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Área de Download -->
+    <section id="download" class="section download-section">
+        <div class="pixel-box download-box">
+            <h2>// PRONTO PARA O DESAFIO?</h2>
+            <p>Baixe a versão completa para PC (Windows) e comece a jogar agora mesmo!</p>
+            
+            <a href="Nous Chess.zip" download class="btn-pixel btn-download">
+                💾 BAIXAR AGORA (.ZIP)
+            </a>
+            
+            <span class="file-info">* Compatível com Windows 10 e 11. Basta extrair e rodar o .exe</span>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2026 NOUS CHESS 2D - DESENVOLVIDO POR <strong>Yann Fidelis</strong></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
